@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Square Box</title>
+    <link rel="stylesheet" href="css/stylesBox.css" />
+  </head>
+  <body>
+    <form id="squareBox">
+      <label for="width">Width:</label>
+      <input type="number" placeholder="Enter width" name="width" id="width" />
+      <br />
+      <label for="height">Height:</label>
+      <input
+        type="number"
+        placeholder="Enter height"
+        name="height"
+        id="height"
+      />
+      <br />
+      <button type="button" onclick="calculateBox()">Calculate</button>
+    </form>
+    <p id="inputs"></p>
+    <p id="result"></p>
+    <div id="box"></div>
+    <script src="squarebox.js"></script>
+  </body>
+</html>

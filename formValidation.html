@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <h1>Register for an Account</h1>
+    <form>
+      <h2>Account Information</h2>
+      <label>Email:</label>
+      <input type="text" id="email" />
+      <p id="emailAns"></p>
+      <br />
+
+      <label>Password:</label>
+      <input type="text" id="password" />
+      <p id="passwordAns"></p>
+      <br />
+
+      <label>Verify Password:</label>
+      <input type="text" id="vpassword" />
+      <p id="vpasswordAns"></p>
+      <hr />
+      <h2>Contact Information</h2>
+      <label>First Name:</label>
+      <input type="text" id="fn" />
+      <p id="fnAns"></p>
+      <br />
+
+      <label>Last Name:</label>
+      <input type="text" id="ln" />
+      <p id="lnAns"></p>
+      <br />
+
+      <label>Address:</label>
+      <input type="text" id="address" />
+      <p id="addressAns"></p>
+      <br />
+
+      <label>City:</label>
+      <input type="text" id="city" />
+      <p id="cityAns"></p>
+      <br />
+
+      <label>State:</label>
+      <input type="text" id="state" />
+      <p id="stateAns"></p>
+      <br />
+
+      <label>Zip Code:</label>
+      <input type="text" id="zip" />
+      <p id="zipAns"></p>
+      <br />
+
+      <label>Phone Number:</label>
+      <input type="text" id="phone" />
+      <p id="phoneAns"></p>
+      <hr />
+      <h2>Payment Information</h2>
+      <label>Card Type:</label>
+      <select name="cardtype" id="cardtype">
+        <option value="debit">Debit</option>
+        <option value="debit">Credit</option>
+      </select>
+      <br />
+      <label>Card Number:</label>
+      <input type="text" id="ccard" />
+      <p id="ccAns"></p>
+      <br />
+      <label>Expiration Date:</label>
+      <input type="text" id="exp" />
+      <p id="expAns"></p>
+      <br />
+      <hr />
+      <h2>Submit Registration</h2>
+      <input type="submit" value="Register" id="submitBtn" />
+    </form>
+  </body>
+  <script src="formValidation.js"></script>
+</html>
